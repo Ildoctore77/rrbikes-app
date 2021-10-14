@@ -27,9 +27,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../rrbikes-app/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../rrbikes-app/node_modules/jquery/dist/jquery.slim.min.js",
+              "../rrbikes-app/node_modules/popper.js/dist/umd/popper.min.js",
+              "../rrbikes-app/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ],
           },
           "configurations": {
             "production": {
